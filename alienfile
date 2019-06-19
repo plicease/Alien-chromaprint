@@ -1,11 +1,13 @@
 use alienfile;
-plugin 'PkgConfig' => 'libfoo';
+
+plugin 'PkgConfig' => 'libchromaprint';
+
 share {
   plugin Download => (
-    url => 'http://...',
-    filter => qr/*\.tar\.gz$/,
-    version => qr/([0-9\.]+)/,
+    url => 'https://acoustid.org/chromaprint',
+    filter => qr/chromaprint-[0-9\.]*\.tar\.gz$/,
+    version => qr/([0-9\.]*[0-9])/,
   );
   plugin Extract => 'tar.gz';
-  plugin 'Build::Autoconf';
+  plugin 'Build::CMake';
 }
