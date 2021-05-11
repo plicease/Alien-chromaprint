@@ -1,4 +1,4 @@
-# Alien::chromaprint ![linux](https://github.com/plicease/Alien-chromaprint/workflows/linux/badge.svg) ![macos](https://github.com/plicease/Alien-chromaprint/workflows/macos/badge.svg)
+# Alien::chromaprint ![linux](https://github.com/plicease/Alien-chromaprint/workflows/linux/badge.svg) ![macos](https://github.com/plicease/Alien-chromaprint/workflows/macos/badge.svg) ![windows](https://github.com/plicease/Alien-chromaprint/workflows/windows/badge.svg)
 
 Alien for chromaprint
 
