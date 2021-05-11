@@ -1,4 +1,4 @@
-# Alien::chromaprint [![Build Status](https://secure.travis-ci.org/plicease/Alien-chromaprint.png)](http://travis-ci.org/plicease/Alien-chromaprint)
+# Alien::chromaprint ![linux](https://github.com/plicease/Alien-chromaprint/workflows/linux/badge.svg)
 
 Alien for chromaprint
 
